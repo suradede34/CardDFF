@@ -1,0 +1,122 @@
+.container {
+    width: 375px;
+    height: 704px;
+    top: -450px;
+    left: 819px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+} 
+.desktop {
+    display: none;
+}
+.web {
+    display: none;
+}
+.header {
+    width: 375px;
+    height: 240px;
+}
+.mobile {
+    margin-top: -237px;
+}
+.body {
+    font-family: 'Space Grotesk', sans-serif;
+    width: 327px;
+    height: 328px;
+    margin-top: 91px;
+    margin-left: 24px;
+}
+.box {
+    height: 69px;
+    background-color: #fff;
+}
+h4 {
+    margin-bottom: 10px;
+}
+input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.box:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    width: -1px;
+}
+h4 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+}
+.date-inputs {
+    display: flex;
+}
+.date-inputs input {
+    margin-right: 5px;
+    width: 53px;
+}
+.footer {
+    width: 327px;
+    height: 53px;
+    border-radius: 8px;
+    background-color: #21092F;
+    margin-top: 37px;
+    color: #FFFFFF;
+    display: block; 
+}
+.footer h2 {
+    color: #FFFFFF;
+    padding-top: 15px;
+    margin-left: 129px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.thank-you-message {
+    display: none; 
+    margin-top: 20px;
+    text-align: center;
+}
+.thank-you-message.visible {
+    display: block; 
+}
+.thank-you-message h2 {
+    color: #21092F;
+    font-size: 20px;
+    font-weight: 500;
+}
+.thank-you-message p {
+    color: #666;
+    font-size: 14px;
+}
+  
+@media screen and (min-width: 1280px) {
+    .container {
+      width: 1440px;
+      height: 900px;
+      background-color: #FFFFFF;
+    }
+    .mobil {
+      display: none;
+    }
+    .mobile {
+      display: none;
+    }
+    .desktop {
+      display: block;
+    }
+    .web {
+      display: block;
+      width: 541px;
+      height: 527px;
+      margin-top: -668px;
+      margin-left: 164px;
+    }
+    .body {
+      margin-top: 48px;
+      margin-left: 821px;
+    }
+}
